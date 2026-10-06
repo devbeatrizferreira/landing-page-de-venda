@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoPrime - Venda de Carros</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <script
+        src="https://unpkg.com/lucide@latest">
+    </script>
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                🚘 AutoPrime
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#carros">Carros</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <!-- Botão Dark Mode -->
+
+            <button
+                id="darkModeBtn"
+                class="dark-mode-btn"
+                aria-label="Alternar modo escuro">
+
+                🌙
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <span class="hero-badge">
+                    🚗 Ofertas especiais
+                </span>
+
+                <h1>
+                    Seu próximo carro
+                    <span>está aqui.</span>
+                </h1>
+
+                <p>
+                    Encontre carros novos e seminovos com
+                    qualidade, segurança e as melhores condições
+                    de pagamento.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#carros" class="btn-primary">
+                        Ver carros
+                    </a>
+
+                    <a href="#contato" class="btn-outline">
+                        Falar com vendedor
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-car">
+
+                <img
+                    src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1000&q=80"
+                    alt="Carro esportivo">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BENEFÍCIOS
+    ========================== -->
+
+    <section class="benefits">
+
+        <div class="benefit">
+
+            <span>🛡️</span>
+
+            <h3>Compra segura</h3>
+
+            <p>
+                Veículos revisados e com procedência.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <span>💰</span>
+
+            <h3>Melhores preços</h3>
+
+            <p>
+                Condições especiais para você.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <span>🔧</span>
+
+            <h3>Carros revisados</h3>
+
+            <p>
+                Qualidade garantida antes da entrega.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <span>🤝</span>
+
+            <h3>Atendimento</h3>
+
+            <p>
+                Nossa equipe está pronta para ajudar.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CARROS
+    ========================== -->
+
+    <section id="carros" class="cars-section">
+
+        <div class="section-title">
+
+            <span>🔥 Ofertas</span>
+
+            <h2>
+                Carros em destaque
+            </h2>
+
+            <p>
+                Escolha o carro que combina com você.
+            </p>
+
+        </div>
+
+
+        <div class="cars-grid">
+
+
+            <!-- CARRO 1 -->
+
+            <article class="car-card">
+
+                <div class="car-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+                        alt="BMW">
+
+                    <span class="car-tag">
+                        Destaque
+                    </span>
+
+                </div>
+
+                <div class="car-info">
+
+                    <span class="car-category">
+                        Seminovo
+                    </span>
+
+                    <h3>
+                        BMW Série 3
+                    </h3>
+
+                    <p>
+                        2023 • Automático • Flex
+                    </p>
+
+                    <div class="car-details">
+
+                        <span>⚙️ Automático</span>
+
+                        <span>⛽ Flex</span>
+
+                        <span>📍 35.000 km</span>
+
+                    </div>
+
+                    <div class="car-price">
+
+                        <div>
+                            <small>A partir de</small>
+
+                            <strong>
+                                R$ 189.900
+                            </strong>
+                        </div>
+
+                        <a href="#contato">
+                            Ver detalhes
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARRO 2 -->
+
+            <article class="car-card">
+
+                <div class="car-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
+                        alt="Mercedes">
+
+                    <span class="car-tag">
+                        Oferta
+                    </span>
+
+                </div>
+
+                <div class="car-info">
+
+                    <span class="car-category">
+                        Seminovo
+                    </span>
+
+                    <h3>
+                        Mercedes-Benz Classe C
+                    </h3>
+
+                    <p>
+                        2022 • Automático • Gasolina
+                    </p>
+
+                    <div class="car-details">
+
+                        <span>⚙️ Automático</span>
+
+                        <span>⛽ Gasolina</span>
+
+                        <span>📍 42.000 km</span>
+
+                    </div>
+
+                    <div class="car-price">
+
+                        <div>
+
+                            <small>A partir de</small>
+
+                            <strong>
+                                R$ 219.900
+                            </strong>
+
+                        </div>
+
+                        <a href="#contato">
+                            Ver detalhes
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARRO 3 -->
+
+            <article class="car-card">
+
+                <div class="car-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80"
+                        alt="Porsche">
+
+                    <span class="car-tag">
+                        Premium
+                    </span>
+
+                </div>
+
+                <div class="car-info">
+
+                    <span class="car-category">
+                        Esportivo
+                    </span>
+
+                    <h3>
+                        Porsche 911
+                    </h3>
+
+                    <p>
+                        2024 • Automático • Gasolina
+                    </p>
+
+                    <div class="car-details">
+
+                        <span>⚙️ Automático</span>
+
+                        <span>⛽ Gasolina</span>
+
+                        <span>📍 12.000 km</span>
+
+                    </div>
+
+                    <div class="car-price">
+
+                        <div>
+
+                            <small>A partir de</small>
+
+                            <strong>
+                                R$ 799.900
+                            </strong>
+
+                        </div>
+
+                        <a href="#contato">
+                            Ver detalhes
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SOBRE
+    ========================== -->
+
+    <section id="sobre" class="about">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=1000&q=80"
+                alt="Concessionária">
+
+        </div>
+
+
+        <div class="about-text">
+
+            <span class="section-label">
+                SOBRE A AUTOPRIME
+            </span>
+
+            <h2>
+                Mais que carros.
+                <span>Experiências.</span>
+            </h2>
+
+            <p>
+                Na AutoPrime, acreditamos que comprar um carro
+                deve ser uma experiência simples, segura e
+                agradável.
+            </p>
+
+            <p>
+                Trabalhamos com veículos selecionados,
+                revisados e com procedência para que você
+                tenha tranquilidade em cada quilômetro.
+            </p>
+
+            <div class="about-numbers">
+
+                <div>
+                    <strong>+10</strong>
+                    <span>Anos de experiência</span>
+                </div>
+
+                <div>
+                    <strong>+2.500</strong>
+                    <span>Carros vendidos</span>
+                </div>
+
+                <div>
+                    <strong>98%</strong>
+                    <span>Clientes satisfeitos</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
+
+    <section id="contato" class="cta">
+
+        <div>
+
+            <span>
+                🚘 ENCONTRE SEU CARRO
+            </span>
+
+            <h2>
+                Pronto para acelerar
+                seus planos?
+            </h2>
+
+            <p>
+                Fale com nossa equipe e encontre o veículo
+                perfeito para você.
+            </p>
+
+            <a
+                href="https://wa.me/5500000000000"
+                target="_blank"
+                class="cta-button">
+
+                💬 Falar pelo WhatsApp
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🚘 AutoPrime
+            </div>
+
+            <p>
+                Seu próximo carro começa aqui.
+            </p>
+
+            <span>
+                © 2026 AutoPrime. Todos os direitos reservados.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
